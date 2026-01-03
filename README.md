@@ -1,3 +1,22 @@
+## Apie projektą
+
+Problemų (Ticket) registravimo ir sekimo sistema
+
+<b>Tikslas:</b>
+Sukurti PHP Laravel aplikaciją, skirtą IT (ar kitos panašios srities) problemų registravimui (ticket) ir jų būsenos stebėjimui.
+
+<h4>Programos užduotys ir reikalavimai</h4>
+1.	Aplikacija turi veikti tik po vartotojo autentifikacijos.
+2.	Vartotojas turi galėti pateikti problemos užklausą (bilietą), įvesdamas šiuos duomenis: Pavadinimą (Title), Aprašymą (Description),Kategoriją (Category), pasirenkamą iš klasifikatoriaus lentelės (pvz.: Techninė įranga (Hardware),Programinė įranga (Software), Tinklas (Network), Prieiga (Access))
+3.	Bilietai turi turėti galimybes tik savininkui ir administratoriui
+4.	Kategorijos turi būti gaunamos iš DB klasifikatoriaus (nebūtina, bet administratorius turi turėti galimybę pridėti naują, redaguoti, pašalinti esamą).
+5.	Palaikymo personalas turi turėti galimybę: keisti bilieto būseną;pridėti komentarus arba pastabas.
+6.	Sistema turi rodyti prisijungusiems vartotojams visą pateiktų problemų sąrašą ir jų dabartinę būseną, su galimybe valdyti (redaguoti, trinti, šalinti).
+7.	Vartotojas turi gauti el. pašto pranešimą, kai:
+    a.	pasikeičia bilieto būsena (pvz.: Naujas → Vykdomas → Užbaigtas);
+    b.	palaikymo (suport) specialistas prideda komentarą.
+8.	Galimybė suformuoti visų aktyvių problemų PDF ataskaitą.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
