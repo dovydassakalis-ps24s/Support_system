@@ -15,21 +15,19 @@
             </div>
 
                 
-            <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6">
-                <a href="#" class="bg-white dark:bg-gray-800 shadow-sm sm:rounded-lg p-6 text-center text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
+            <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <a href="{{ route('bilietas') }}"
+                class="bg-white dark:bg-gray-800 shadow-sm sm:rounded-lg p-6 text-center text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
                     <span class="text-lg font-semibold">Sukurti bilietą</span>
                 </a>
 
-                <a href="#" class="bg-white dark:bg-gray-800 shadow-sm sm:rounded-lg p-6 text-center text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
+                <a href="{{ route('aktyvus') }}" 
+                class="bg-white dark:bg-gray-800 shadow-sm sm:rounded-lg p-6 text-center text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
                     <span class="text-lg font-semibold">Aktyvūs bilietai</span>
                 </a>
 
-                <a href="#" class="bg-white dark:bg-gray-800 shadow-sm sm:rounded-lg p-6 text-center text-gray-900 dark:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
-                    <span class="text-lg font-semibold">Uždaryti bilietai</span>
-                </a>
-            </div>
-
-
+            </div> 
+        <x-footer />
         </div>
     </div>
 </x-app-layout>
